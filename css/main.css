@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+.main-text {
+  color: red;
+  text-decoration: none;
+}
+
+.main-text:hover {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: green;
+  cursor: pointer;
+}
+
+.main-text:active {
+  text-decoration:line-through;
+  text-decoration-style:solid;
+  text
+}
+
+.main-text:visited {
+  color: green;
+}
+
+#id:after {
+  content: "Пёсик";
+  color: green;
+}
+
+input {color: rgb(255, 24, 100);}
+input:active {color:green}
+input:focus {color:grey}
+
+#b:not(empty) {
+  color: rgb(24, 34, 200);
+}
+a.main-text::after {
+  content: attr(title);
+  color: blue;
+}
+
+body {
+  background: #ccf5ff;
+}
+
+#first {
+  color: #000;
+  background: #ebc6d9 url('https://i.pinimg.com/originals/5c/a9/c1/5ca9c12c69e0a275947229f150dc9d68.jpg') no-repeat center top;
+  height: 300px;
+  background-size: cover ;
+  background-attachment:local;
+  border: 50px pink;
+  border-style:groove;
+  border-spacing: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Montserrat';
+  word-spacing: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  opacity: 90%;
+  }
+
+
+#second {
+color: #ccf5ff;
+height: 200px;
+width: 200px;
+background: grey;
+border: 10px black inset;
+border-radius: 20% 20% 20% 20%;
+padding: 10px;
+}
